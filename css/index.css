@@ -1,0 +1,121 @@
+body, ul{
+    margin: 0;
+    padding: 0;
+}
+.clock{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 100px auto;
+    padding: 15px;
+    border-radius: 40px;
+    background: #111;
+}
+.content{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #fff;
+}
+.num{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width:30px;
+    margin-left: -15px;
+    height: 30px;
+    list-style: none;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    transform-origin: 15px 100px;
+}
+.num span{
+    display: inline-block;
+}
+/* .num:nth-child(1) {
+    transform: rotate(30deg);
+}
+.num:nth-child(1) span{
+    
+    transform: rotate(-30deg);
+}
+.num:nth-child(2) {
+    transform: rotate(60deg);
+}
+.num:nth-child(3) {
+    transform: rotate(90deg);
+}
+.num:nth-child(4) {
+    transform: rotate(120deg);
+}
+.num:nth-child(5) {
+    transform: rotate(150deg);
+}
+.num:nth-child(6) {
+    transform: rotate(180deg);
+}
+.num:nth-child(7) {
+    transform: rotate(210deg);
+}
+.num:nth-child(8) {
+    transform: rotate(240deg);
+}
+.num:nth-child(9) {
+    transform: rotate(270deg);
+}
+.num:nth-child(10) {
+    transform: rotate(300deg);
+}
+.num:nth-child(11) {
+    transform: rotate(330deg);
+}
+.num:nth-child(12) {
+    transform: rotate(360deg);
+} */
+
+.radio{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    margin-left:-5px;
+    margin-top:-5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #111;
+}
+.hour{
+    position: absolute;
+    left: 50%;
+    margin-left: -2px;
+    top: 45px;
+    width: 4px;
+    height:70px;
+    background:#111;
+    border-radius: 2px;
+    transform-origin: center bottom;
+}
+.minute{
+    position: absolute;
+    left: 50%;
+    margin-left: -2px;
+    top: 25px;
+    width: 4px;
+    height: 90px;
+    border-radius: 4px;
+    background:#111;
+    transform-origin: center bottom;
+}
+.second{
+    position: absolute;
+    left: 50%;
+    margin-left: -1px;
+    top: 25px;
+    width: 2px;
+    height:100px;
+    background: orange;
+    transform-origin: center 90px;
+}
